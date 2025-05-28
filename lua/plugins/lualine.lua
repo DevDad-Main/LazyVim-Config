@@ -34,8 +34,8 @@ return {
           {
             function()
               -- return vim.bo.filetype
-              local ft = vim.bo.filetype
-              local icon, _ = devicons.get_icon_by_filetype(ft)
+              local fileType = vim.bo.filetype
+              local icon, _ = devicons.get_icon_by_filetype(fileType)
               return icon or "" -- fallback icon
             end,
             separator = { left = "", right = "" },
