@@ -39,7 +39,7 @@ return {
               return icon or "" -- fallback icon
             end,
             separator = { left = "", right = "" },
-            color = { fg = "#000000", bg = "#f38ba8" }, -- or pick your colors
+            -- color = { fg = "#000000", bg = "#f38ba8" }, -- or pick your colors
           },
         },
         lualine_x = {},
