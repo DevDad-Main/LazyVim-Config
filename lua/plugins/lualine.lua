@@ -1,4 +1,4 @@
-local devicons = require("nvim-web-devicons")
+-- local devicons = require("nvim-web-devicons")
 
 return {
   {
@@ -31,16 +31,26 @@ return {
             separator = { right = "" },
             right_padding = 0,
           },
+
           {
             function()
-              -- return vim.bo.filetype
               local fileType = vim.bo.filetype
-              local icon, _ = devicons.get_icon_by_filetype(fileType)
+              local ok, devicons = pcall(require, "nvim-web-devicons")
+              local icon = ok and devicons.get_icon_by_filetype(fileType) or nil
               return icon or "" -- fallback icon
             end,
             separator = { left = "", right = "" },
-            -- color = { fg = "#000000", bg = "#f38ba8" }, -- or pick your colors
           },
+          -- {
+          --   function()
+          --     -- return vim.bo.filetype
+          --     local fileType = vim.bo.filetype
+          --     local icon, _ = devicons.get_icon_by_filetype(fileType)
+          --     return icon or "" -- fallback icon
+          --   end,
+          --   separator = { left = "", right = "" },
+          --   -- color = { fg = "#000000", bg = "#f38ba8" }, -- or pick your colors
+          -- },
         },
         lualine_x = {},
         lualine_y = {

@@ -11,21 +11,21 @@
 -- }
 
 return {
-  {
-    "akinsho/bufferline.nvim",
-    version = "*",
-    dependencies = "nvim-tree/nvim-web-devicons",
-    opts = {
-      options = {
-        mode = "buffers",
-        separator_style = "slant",
-        indicator = {
-          style = "underline",
-        },
-        show_buffer_close_icons = false,
-        show_close_icon = false,
-        always_show_bufferline = true,
-      },
-    },
-  },
+  -- {
+  --   "akinsho/bufferline.nvim",
+  --   version = "*",
+  --   dependencies = "nvim-tree/nvim-web-devicons",
+  --   opts = {
+  --     options = {
+  --       mode = "buffers",
+  --       separator_style = "slant",
+  --       indicator = {
+  --         style = "underline",
+  --       },
+  --       show_buffer_close_icons = false,
+  --       show_close_icon = false,
+  --       always_show_bufferline = true,
+  --     },
+  --   },
+  -- },
 }
