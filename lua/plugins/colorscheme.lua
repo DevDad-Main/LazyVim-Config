@@ -41,6 +41,14 @@ return {
     priority = 1000,
     config = function()
       require("nord").setup({})
+      -- Lua
+      -- require("lualine").setup({
+      --   options = {
+      --     -- ... your lualine config
+      --     theme = "nord",
+      --     -- ... your lualine config
+      --   },
+      -- })
       vim.cmd.colorscheme("nord")
     end,
   },
