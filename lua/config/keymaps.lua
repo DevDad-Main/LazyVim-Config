@@ -37,3 +37,4 @@ keymap.set("i", "<C-d>", "<C-o>dw")
 
 -- Move Cursor Right one character
 keymap.set("i", "<c-l>", "<Right>")
+keymap.set("i", "<c-h>", "<Left>")

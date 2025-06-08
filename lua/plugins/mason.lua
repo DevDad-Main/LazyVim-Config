@@ -15,6 +15,7 @@ return {
       "typescript-language-server",
       "vtsls",
       "yaml-language-server",
+      "csharp-language-server",
 
       -- Formatters
       "prettier",
@@ -30,8 +31,7 @@ return {
       "selene",
 
       -- Others
-      "codeclldb",
-      "postgres-tools",
+      "csharpier",
     },
   },
 }

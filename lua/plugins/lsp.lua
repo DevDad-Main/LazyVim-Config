@@ -6,6 +6,13 @@ return {
       inlay_hints = { enabled = true },
       ---@type lspconfig.options
       servers = {
+        -- omnisharp = {
+        --   enable_roslyn_analysers = true,
+        --   enable_import_completion = true,
+        --   organize_imports_on_format = true,
+        --   enable_decompilation_support = true,
+        --   filetypes = { "cs", "vb", "csproj", "sln", "slnx", "props", "csx", "targets", "tproj", "slngen", "fproj" },
+        -- },
         cssls = {},
         tailwindcss = {
           root_dir = function(...)
