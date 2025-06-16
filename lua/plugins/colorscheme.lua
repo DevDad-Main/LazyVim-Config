@@ -32,8 +32,7 @@
 --   },
 -- }
 --
---
---
+
 return {
   {
     "gbprod/nord.nvim",
@@ -53,6 +52,7 @@ return {
     end,
   },
 }
+
 -- return {
 --   "zenbones-theme/zenbones.nvim",
 --   -- Optionally install Lush. Allows for more configuration or extending the colorscheme
