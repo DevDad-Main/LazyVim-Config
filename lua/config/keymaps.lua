@@ -12,6 +12,9 @@ keymap.set("n", "<S-Tab>", "<cmd>BufferLineCyclePrev<cr>")
 -- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
 
+--Codeium toggle
+keymap.set("n", "<C-t>", "<cmd> Codeium Toggle<CR>")
+
 -- TMUX Navigation
 keymap.set("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>")
 keymap.set("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>")

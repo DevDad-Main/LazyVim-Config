@@ -13,7 +13,6 @@ return {
       "json-lsp",
       "lua-language-server",
       "typescript-language-server",
-      "vtsls",
       "yaml-language-server",
       "csharp-language-server",
 
