@@ -5,6 +5,8 @@ return {
     opts = {
       formatters_by_ft = {
         cs = { "csharpier" },
+        html = { "prettierd", "prettier" },
+        -- javascript = { { "prettierd", "prettier" } },
       },
       formatters = {
         csharpier = {
