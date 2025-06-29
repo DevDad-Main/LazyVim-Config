@@ -62,4 +62,5 @@ require("lazy").setup({
       },
     },
   },
+  vim.cmd("autocmd BufNewFile,BufRead *.ejs set filetype=html"),
 })
